@@ -13,7 +13,8 @@ dynamicRedirects:
     to: /gray/:splat
     statusCode: 200
   # This is a custom redirect because the status code is 3xx.
-staticRedirects:
+staticRediarects:
+  -
     from: /grey-redirect
     to: /gray
     statusCode: 308
