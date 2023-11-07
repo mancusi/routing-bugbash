@@ -19,8 +19,8 @@ staticRedirects:
     to: /gray
     status: 308
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
-# authentication:
-#   policyName: auth02
-#   includePaths:
-#     - /red # red is locked down
+authentication:
+  policyName: auth02
+  includePaths:
+    - /red # red is locked down
 
