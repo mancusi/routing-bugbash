@@ -23,4 +23,6 @@ staticRedirects:
 #   policyName: auth02
 #   includePaths:
 #     - /red # red is locked down
+serving:
+  reverseProxyPath: "example.com/prefix"
 
