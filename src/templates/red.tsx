@@ -18,7 +18,7 @@ const OverrideTemplate = (props: any) => {
   return template.default({
     children: <div>
       {`You email is ${email}`}
-      <img src="/simulated-prefix/assets/static.png"></img>
+      <img src="/prefix/assets/static.png"></img>
       <img src={img}></img>
       </div>
   });
