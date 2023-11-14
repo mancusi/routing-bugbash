@@ -14,6 +14,6 @@ export default defineConfig({
   plugins: [react(), yextSSG(), vitePlugin()],
   publicDir: "/public",
   build: {
-    assetsDir: "simulated-prefix/assets"
+    assetsDir: "prefix/assets"
   }
 });
