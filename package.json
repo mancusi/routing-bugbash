@@ -24,12 +24,13 @@
   "dependencies": {
     "@headlessui/react": "^1.7.12",
     "@heroicons/react": "^2.0.14",
+    "@yext/sites-components": "1.0.0-rc.5",
     "classnames": "^2.3.2",
+    "fs-extra": "^11.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-phone-number-input": "^3.2.19",
-    "tailwind-merge": "^1.6.2",
-    "@yext/sites-components": "1.0.0-rc.5"
+    "tailwind-merge": "^1.6.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.49",
